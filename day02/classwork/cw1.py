@@ -19,9 +19,4 @@ num5 = num1 * num2
 print(num5)
 
 num6 = num1 / num2
-print(num6)
-
-
-
-
-
+print

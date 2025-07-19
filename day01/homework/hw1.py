@@ -22,16 +22,3 @@ height=1.70
 gear="compiuter"
 country="saqartvelo"
 car="porche"
-
-
-
-
-
-
-
-
-
-
-
-
-

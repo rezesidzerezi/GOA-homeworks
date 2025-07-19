@@ -30,7 +30,20 @@ height = 1.70
 weight = 50.25
 decimal1 = 100.50
 decimal2 = 20.67
-print(name, country, gear, car, age, num1, num2, num3, height, weight, decimal1, decimal2)
+print(name)
+print(country)
+print(gear)
+print(car)
+print(age)
+print(num1)
+print(num2)
+print(num3)
+print(height)
+print(weight)
+print(decimal1)
+print(decimal2)
+
+
 
 #part3
 name = "rezi"
@@ -49,78 +62,6 @@ print(name + name2 + name3 + name4 + name5)
 #part5
 age = 14
 height = 1.70
-num1 = age * height 
-num2 = age + height 
-num3 = age - height
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+value1 = (age * height) 
+value2 = (age + height)
+value3 = (age - height)
