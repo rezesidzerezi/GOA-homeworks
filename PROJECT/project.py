@@ -1,13 +1,13 @@
-import time #time
-import sys #System-specific parameters and functions
+import time 
+import sys 
 
 
 def loading_screen_2(choice_option):
- for i in range(3):  # how many times it repeats
+ for i in range(3):  
     for dots in range(4):  
-        sys.stdout.write("\rLoading transaction history" + "." * dots + "   ")  # overwrite line
+        sys.stdout.write("\rLoading transaction history" + "." * dots + "   ")  
         
-        time.sleep(0.5)  # delay
+        time.sleep(0.5)  
         if i == 2 and dots == 3:
             if choice_option == "2":
                 print("\r ")
@@ -17,11 +17,11 @@ def loading_screen_2(choice_option):
          
 
 def loading_screen_1(choice_option):
- for i in range(2):  # how many times it repeats
+ for i in range(2):  
     for dots in range(4):  
-        sys.stdout.write("\rLoading " + "." * dots + "   ")  # overwrite line
+        sys.stdout.write("\rLoading " + "." * dots + "   ")  
         
-        time.sleep(0.5)  # delayc
+        time.sleep(0.5)  
         if i == 1 and dots == 3:
          
 
@@ -57,11 +57,11 @@ def loading_screen_1(choice_option):
 
 
 def loading_screen_0(choice_option):
- for i in range(2):  # how many times it repeats
+ for i in range(2):  
     for dots in range(4):  
-        sys.stdout.write("\rLoading" + "." * dots + "   ")  # overwrite line
+        sys.stdout.write("\rLoading" + "." * dots + "   ")  
         
-        time.sleep(0.5)  # delayc
+        time.sleep(0.5)  
         if i == 1 and dots == 3:
          
 
@@ -247,7 +247,7 @@ while True:
         else:
             slow_print("Username not found.")
 
-    elif choice == "2":  # CREATE ACCOUNT
+    elif choice == "2":  
         new_user = slow_input("Choose a username: ")
         if new_user in accounts:
             slow_print("The username is already taken.")
