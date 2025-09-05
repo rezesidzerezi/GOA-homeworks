@@ -47,6 +47,7 @@ while True:
 
     if guess == correct_password:
         print(f"Congratulations! pasword is correct. number of tries: {tries}")
+        break
     elif guess == "nah strong password":
             print(f"you failed. number of tries {tries}")
             break
@@ -54,11 +55,11 @@ while True:
         print("wrong password try again")
 
 # 4) მომხმარებელს შემოატანიეთ სამი რიცხვი(მთელი/ათწილადი) და ამ სამი რიცხვთაგან დაბეჭდეთ უდიდესი
-num = float(input("type any number"))
-num2 = float(input("type any number"))
-num3 = float(input("type any number"))
+num = int(input("type any number: "))
+num2 = int(input("type any number: "))
+num3 = int(input("type any number: "))
 
-print("the largest number is: ",max(num,num2,num3))
+print(f"the largest number is: ,{max(num,num2,num3)}")
 
 # 5) შემოატანიეთ მომხმარებელს რიცხვი 1-დან 7-ჩათვლით
 # თუ 1 --> დაპრინტეთ 'ორშაბათი'

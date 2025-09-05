@@ -1,7 +1,7 @@
 #1
-num = input("enter number: ")
-num1 = input("enter number: ")
-num2 = input("enter number: ")
+num = int(input("enter number: "))
+num1 = int(input("enter number: "))
+num2 = int(input("enter number: "))
 
 if num == num1 and num1 == num2:
     print("3 of them are equal")
