@@ -36,7 +36,7 @@ for i in range(5):
 
 
 i = 0
-while i < len(fruits):
+while i < 5:
     print(fruits[i])
     i += 1
 
