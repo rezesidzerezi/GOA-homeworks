@@ -162,7 +162,7 @@ else:
 # ----ამ სიტყვიდან შეადგინე სიტყვა "bativar"
 
 
-word =["agivorsbgitr"]
+word ="agivorsbgitr"
 # gogas daprintva
 print(word[1], word[4], word[-4], word[0])
 # sabas daprintva
