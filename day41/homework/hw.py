@@ -169,6 +169,8 @@ tems = ["pen", "pencil", "book", "eraser"]
 
 tems.pop(user)
 
+print(tems)
+
 # 15)შექმენი სია:
 # fruits = ["apple", "banana", "orange"]
 # remove() ფუნქციით სიისდან წაშალე "banana".
