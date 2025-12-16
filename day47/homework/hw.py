@@ -6,7 +6,7 @@ names = ["rezi", "gega", "Dachi", "saba", "Alexandre"]
 Upper_name = []
 
 for name in names:
-    if name[0].upper():
+    if name[0] == name[0].upper():
         Upper_name.append(name)
 
 print(Upper_name)
@@ -16,7 +16,7 @@ print(Upper_name)
 
 
 names1 = ["rezi", "gega", "Dachi", "saba", "Alexandre"]
-surnames = ["rezesidze", "gabunia", "Arkania", "sagliani" , "Kekoshvili"]
+surnames = ["Rezesidze", "Gabunia", "Arkania", "Sagliani" , "Kekoshvili"]
 
 for i in range(len(names)):
     names1[i] = names1[i].upper()
@@ -35,12 +35,11 @@ words = ["python", "html", "css", "java", "hello world"]
 words2 = []
 
 for i in words:
-    if len(i) < 6 or i[-1].isupper():
-        continue
-    else:
+    if len(i) >= 6 and i[-1].lower():
         words2.append(i)
 
 print(words2)
+
 
 # 4) შექმენით float მონაცემთა ტიპის ელემენტებით სავსე სია რომელშიც იქნება 10 float ელემენტი და ამ სიიდან ახალ ცარიელ სიაში ჩაამატეთ ის რიცხვები 
 # რომლებიც არიან 10-ზე მეტი და 100-ზე ნაკლები.

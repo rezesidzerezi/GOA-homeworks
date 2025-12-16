@@ -16,9 +16,7 @@ print(num)
 
 string = ["Rezi", "Gega", "Dachi", "Saba", "Alexandre"]
 
-height = len(string)
-
-for i in range(height):
+for i in range(len(string)):
     string.append(string[i])
 
 print(string)
@@ -29,7 +27,7 @@ print(string)
 
 strings = ["Rezi", "Gega", "Dachi", "Saba", "Alexandre"]
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = [1,2,3,4,5,6,7,8,9,30,44]
 
 for num in numbers:
     if 20 < num and num < 50:
