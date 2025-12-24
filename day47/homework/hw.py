@@ -35,7 +35,7 @@ words = ["python", "html", "css", "java", "hello world"]
 words2 = []
 
 for i in words:
-    if len(i) >= 6 and i[-1].lower():
+    if len(i) >= 6 and i[-1].upper():
         words2.append(i)
 
 print(words2)
