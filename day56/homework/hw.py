@@ -83,11 +83,3 @@ while user_number != num:
     count += 1
 
 print("Correct! Attempts:",count)
-
-
-
-
-
-
-
-

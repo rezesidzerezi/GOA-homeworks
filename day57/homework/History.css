@@ -1,0 +1,25 @@
+/* 5) შექმენით multi-page ვებსაიტი თქვენს საყვარელ პროგრამირების ენაზე,
+გამოიყენეთ რაც შეიძლება მეტი თეგები და ატრიბუტები გავლილი მასალიდან,
+გასტილეთ ყველაფერი მხოლოდ External CSS-ით, ასევე ხანდახან გამოიყენეთ style inheritance,
+და მხოლოდ თუ აუცილებლად დაგჭირდებათ ელემენტების გასასტილად ხანდახან გამოიყენეთ Inline CSS. */
+
+body{
+    text-align: center;
+}
+
+nav{
+    background-color: blueviolet;
+    border: 4px solid purple;
+    font-size: 25px;
+}
+
+h1{
+    color: purple;
+    font-size: 40px;
+}
+
+div p{
+    color: darkviolet;
+    font-size: 20px;
+}
+

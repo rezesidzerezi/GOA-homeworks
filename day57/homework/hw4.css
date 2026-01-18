@@ -1,0 +1,21 @@
+/* 4) შექმენით 2 დივი, შიგნით ორივეში შექმენით ერთ-ერთი ცხრილი, 
+პირველი ცხრილის ელემენტებს მიანიჭეთ 15px ზომა, ფერი ლურჯი, ფონის ფერი მწვანე, 
+იყოს ცენტრში, მეორე ცხრილის ელემენტებს კი მიანიჭეთ 18px ზომა, ფერი მწვანე, 
+ფონის ფერი წითელი, იყოს ცენტრში, და ძღვარი გაუწერეთ მთლიან ცხრილს. 
+გამოიყენეთ style inheritance და External CSS. */
+
+
+div ul{
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    text-align: center;
+}
+
+div ol{
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    text-align: center;
+    border: 3px solid black;
+}

@@ -1,0 +1,30 @@
+
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav{
+    background-color: cyan;
+    border: 4px solid blue;
+    font-size: 25px;
+}
+
+h1{
+    color:darkblue;
+    font-size: 40px;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+footer{
+    background-color: cyan;
+    font-size: 20px;
+}
+
+div a{
+    font-size: 30px;
+}

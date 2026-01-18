@@ -1,0 +1,23 @@
+/* 1) შექმენით 2 დივი, შიგნით ორივეში გქონდეთ 2 სათაური და 2 პარაგრაფი, 
+პირველი დივის ელემენტებს მიანიჭეთ 38px ზომა, ფერი ლურჯი, ფონის ფერი მწვანე, 
+ზღვარი 3px ზომის, წითელი და solid, მეორე დივის ელემენტებს მიანიჭეთ 46px ზომა, 
+ფერი იასამნისფერი, ფონის ფერი ყავისფერი, ზღვარი 7px ზომის, ყვითელი და solid. 
+გამოიყენეთ style inheritance და External CSS. */
+
+
+section div{
+    font-size: 38px;
+    color: blue;
+    background-color: green;
+    border: 3px solid red;
+}
+
+
+div{
+    font-size: 46px;
+    color: purple;
+    background-color: brown;
+    border: 7px solid yellow;
+}
+
+
