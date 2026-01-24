@@ -77,3 +77,25 @@ while i < len(everything):
 print(everything)
 
 # 6)  მომხმარებელს შემოატანინეთ წინადადება და დაპრინტეთ ამ წინადადებაში მყოფი ყველაზე გრძელი სიტყვა, გამოიყენეთ while ციკლი, არ გამოიყენოთ max() ფუნქცია.
+
+user3 = input("type any sentence: ")
+
+biggest1 = ""
+biggest2 = ""
+
+i = 0
+
+while i < len(user3):
+    if user3 != " ":
+        biggest2 += user3
+    else:
+        if len(biggest2) > len(biggest1):
+            biggest1 = biggest2
+        biggest2 = ""
+    i += 1
+
+if len(biggest2) > len(biggest1):
+    biggest1 = biggest2
+
+print(biggest1)
+
