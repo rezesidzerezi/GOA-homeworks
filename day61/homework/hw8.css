@@ -1,0 +1,41 @@
+#firstdiv{
+    height: 100px;
+    width: 200px;
+}
+
+#firstdiv button{
+    color: darkblue;
+    border: 4px solid black;
+    background-color: blue;
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+}
+
+#seconddiv{
+    height: 200px;
+    width: 250px;
+}
+
+#seconddiv button{
+    color: darkred;
+    border: 6px solid brown;
+    background-color: red;
+    font-size: 31px;
+    height: 200px;
+    width: 250px;
+}
+
+#thirddiv{
+    height: 100px;
+    width: 100px;
+}
+
+#thirddiv button{
+    color: darkgreen;
+    border: 5px solid black;
+    background-color: green;
+    font-size: 27px;
+    height: 100px;
+    width: 100px;
+}
