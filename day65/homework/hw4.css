@@ -1,0 +1,104 @@
+/* 4) შექმენით 10 სათაური და 10 პარაგრაფი, ყველა სათაურს გაუწერეთ კლასები და გასტილეთ ყველა ნასწავლი სტილების გამოყენებით,
+ხოლო ყოველ პარაგრაფს გაუწერეთ id-ები და გაუწერეთ განსხვავებული სტილები. */
+
+
+
+.header{
+    color: blue;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid darkblue;
+}
+
+
+#p1{
+    color: green;
+    background-color: black;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid darkgreen;
+}
+
+#p2{
+    color:gold;
+    background-color: black;
+    font-size: 45px;
+    text-align: left;
+    border: 7px solid goldenrod;
+}
+
+
+#p3{
+    color: purple;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid darkmagenta;
+}
+
+
+
+#p4{
+    color: burlywood;
+    background-color: black;
+    font-size: 30px;
+    text-align: right;
+    border: 7px solid brown;
+}
+
+
+#p5{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    text-align: left;
+    border: 7px solid darkred;
+}
+
+
+#p6{
+    color:deepskyblue;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+
+#p7{
+    color:aquamarine;
+    background-color: black;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid lightblue;
+}
+
+#p8{
+    color:cyan;
+    background-color: black;
+    font-size: 40px;
+    text-align: left;
+    border: 5px solid aquamarine;
+}
+
+
+
+#p9{
+    color:coral;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid darkgoldenrod;
+}
+
+
+
+#p10{
+    color: crimson;
+    background-color: black;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid brown;
+}
+

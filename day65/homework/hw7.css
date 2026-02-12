@@ -1,0 +1,23 @@
+/* 7) შექმენით 1 პარაგრაფი და მიანიჭეთ 2 კლასი, მაგალითად: class = "p1 first".
+პირველ კლასს მიანიჭეთ ზომა და ფერი, ხოლო მეორეს ფონის ფერი და ზღვარი. */
+
+
+
+.first{
+    font-size: 40px;
+    color:coral;
+}
+
+.second{
+    background-color: burlywood;
+    border: 3px solid brown;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+/* შექმენით ორი დივი, ორივეში მოათავსეთ 5-5 პარაგრაფი. ამ დივებს გაუწერეთ id-ები და გასტილეთ External CSS-ით. */
+
+#first{
+    color:coral;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid darkgoldenrod;
+}
+
+
+#second{
+    color: purple;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid darkmagenta;
+}
+
+
+
+

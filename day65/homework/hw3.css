@@ -1,0 +1,56 @@
+/* 
+3) შექმენით 6 სხვადასხვა დონის სათაური - (h1-h6), ყველას გაუწერეთ id-ები და მიანიჭეთ სხვადასხვა სტილები. გამოიყენეთ ყველა ნასწავლი სტილები და External CSS. */
+
+
+#first{
+    color: blue;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 7px solid darkblue;
+}
+
+
+
+#second{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    text-align: left;
+    border: 7px solid darkred;
+}
+
+#third{
+    color: purple;
+    background-color: black;
+    font-size: 50px;
+    text-align: right;
+    border: 7px solid darkmagenta;
+}
+
+
+#fourth{
+    color: green;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    border: 7px solid darkgreen;
+}
+
+#fifth{
+    color: burlywood;
+    background-color: black;
+    font-size: 30px;
+    text-align: left;
+    border: 7px solid brown;
+}
+
+#sixth{
+    color:gold;
+    background-color: black;
+    font-size: 45px;
+    text-align: center;
+    border: 7px solid goldenrod;
+}
+
+

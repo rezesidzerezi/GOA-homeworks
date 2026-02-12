@@ -1,0 +1,13 @@
+/* შექმენით ერთი დივი, რომლის შიგნით გექნებათ 3 სათაური და 3 პარაგრაფი.
+id-ის გამოყენებით მიანიჭეთ ყველა ნასწავლი სტილები მხოლოდ სათაურებს. გამოიყენეთ style inheritance. */
+
+
+#header h1{
+    color: blue;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 7px solid darkblue;
+}
+
+
