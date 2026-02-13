@@ -1,0 +1,34 @@
+/* 9) შექმენით დალაგებული სია ol თქვენს 5 საყვარელ ჰობიზე.
+პირველ 3 ჰობის მიანიჭეთ სტილები კლასების გამოყენებით,
+და ბოლო ორს მიანიჭეთ განსხვავებული სტილები სხვა კლასების გამოყენებით. */
+
+
+.first{
+    color:gold;
+    background-color: black;
+    font-size: 45px;
+    text-align: left;
+    border: 7px solid goldenrod;
+}
+
+
+.second{
+    color: blue;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid darkblue;
+}
+
+
+.third{
+    color: crimson;
+    background-color: black;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid brown;
+}
+
+
+
+
