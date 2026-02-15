@@ -1,0 +1,75 @@
+
+
+body{
+    text-align: center;
+    background-color: rgb(140, 229, 132);
+}
+
+
+#nav1{
+    background-color: rgb(6, 71, 50);
+    text-align: center;
+}
+
+
+
+
+#nav1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+#nav1 a:hover{
+    color: rgb(54, 104, 87);
+}
+
+
+
+
+
+#div1{
+    color: rgb(2, 26, 19);
+}
+
+
+
+
+#div1 p{
+    font-size: 20px;
+}
+
+
+
+
+#footer1{
+    background-color: rgb(6, 71, 50);
+}
+
+
+
+
+#footer1 a{
+    color: rgb(250, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+#footer1 a:hover {
+    color: rgb(18, 209, 18);
+}
+
+
+
+
+
+
+

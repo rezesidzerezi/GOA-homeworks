@@ -1,0 +1,36 @@
+/* 5) შექმენით დივი რომელშიც მოთავსებული გექნებათ ღილაკი, და ეს ღილაკი გასტილეთ id-ით,
+კლასით, Style Inheritance-ით და Inline CSS-ით.
+ყველა სტილების მნიშვნელობები იყოს ერთმანეთისგან განსხვავებული. */
+
+
+
+
+#button1{
+    color: rgb(0, 255, 0);
+    background-color: #000000;
+    font-size: 40px;
+    text-align: left;
+    border: 6px solid rgb(0, 67, 0);
+}
+
+
+.button2{
+    color: rgb(140, 0, 255);
+    background-color: #000000;
+    font-size: 50px;
+    text-align: center;
+    border: 7px solid darkmagenta;
+}
+
+div button{
+    color: rgb(100, 40, 0);
+    background-color: #700000;
+    font-size: 40px;
+    text-align: left;
+    border: 5px solid rgb(50, 0, 0);
+}
+
+
+
+
+

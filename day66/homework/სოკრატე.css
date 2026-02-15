@@ -1,0 +1,76 @@
+
+
+body{
+    text-align: center;
+    background-color: rgb(255, 208, 52);
+}
+
+
+#nav1{
+    background-color: rgb(252, 235, 79);
+    text-align: center;
+}
+
+
+
+
+#nav1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+#nav1 a:hover{
+    color: rgb(247, 194, 48);
+}
+
+
+
+
+
+#div1{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+#div1 p{
+    font-size: 20px;
+}
+
+
+
+
+#footer1{
+    background-color: rgb(252, 235, 79);
+}
+
+
+
+
+#footer1 a{
+    color: rgb(250, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+#footer1 a:hover {
+    color: rgb(247, 194, 48);
+}
+
+
+
+
+
+
+
+

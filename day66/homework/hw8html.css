@@ -1,0 +1,46 @@
+/* 8) შექმენით ორგვერდიანი საიტი სადაც იქნება ახსნილი HTML-ის და CSS-ის
+შექმნის და განვითარების ისტორია. გამოიყენეთ ახალი ნასწავლი მასალა - სპეციფიკურობა და RGB. */
+
+body{
+    background-color: rgb(255, 236, 214);
+    text-align: center;
+}
+
+#nav1{
+    background-color: rgb(230, 120, 20);
+}
+
+#nav1 a{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+#div1{
+    border: 4px solid rgb(230, 120, 20);
+}
+
+#div1 img{
+    border: 3px solid rgb(255, 160, 60);
+    width: 300px;
+}
+
+#div1 p{
+    font-size: 25px;
+    color: rgb(150, 70, 0);
+}
+
+#footer1{
+    background-color: rgb(230, 120, 20);
+}
+
+#footer1 a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+
+
+
+

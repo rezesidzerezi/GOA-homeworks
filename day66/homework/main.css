@@ -1,0 +1,63 @@
+/* 9) შექმენით რამდენიმე-გვერდიანი ვებსაიტი სხვადასხვა ერის და დროის ყველაზე ცნობილ ფილოსოფოსებზე.
+გამოიყენეთ რაც შეიძლება მეტი თეგები და გავლილი მასალა. */
+
+
+body{
+    text-align: center;
+    background-color: #96d2fc;
+}
+
+#nav1{
+    background-color: rgb(30, 144, 255);
+    text-align: center;
+}
+
+
+
+#nav1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#nav1 a:hover{
+    color: rgb(0, 100, 167);
+}
+
+
+#div1{
+    color: rgb(0, 50, 170);
+}
+
+
+#div1 img{
+    height: 300px;
+    width: 600px;
+}
+
+#div1 p{
+    font-size: 20px;
+}
+
+
+
+#footer1{
+    background-color: rgb(30, 144, 255);
+}
+
+
+
+#footer1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+#footer1 a:hover {
+    color: rgb(0, 50, 167);
+}
+

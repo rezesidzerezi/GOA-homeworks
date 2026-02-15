@@ -1,0 +1,20 @@
+/* 2) შექმენი ერთი პარაგრაფი და მას გაუწერე ერთი id და ერთი კლასი,
+id-ს მიანიჭე ყველა ნასწავლი სტილები და კლასს მიანიჭე ყველა სტილები განსხვავებული მნიშვნელობებით. */
+
+
+#paragraf1{
+    color: rgb(200, 100, 0);
+    background-color: #000000;
+    font-size: 45px;
+    text-align: center;
+    border: 7px solid rgb(240, 100, 0);
+}
+
+.paragraf2{
+    color: rgb(0, 0, 255);
+    background-color: #000000;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid rgb(0, 0, 150);
+}
+
