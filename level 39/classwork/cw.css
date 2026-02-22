@@ -1,0 +1,29 @@
+/* 1)შექმენი 4 პარაგრაფი
+
+პირველ პარაგრაფს ქონდეს ხაზი ზემოთ
+
+მეორეს ქონდეს ხაზი შუაში
+
+მესამეს ქონდეხ ხაზი ქვემოთ
+
+და მეოთხეს საერთოდ არ ქონდეს ხაზის დეკორაცია
+
+გამოიყენეთ ID SELECTOR რომ ოთხივე პარაგრაფს მიანიჭოთ განსხვავებული სტილები */
+
+
+#p1{
+    text-decoration-line: overline ;
+}
+
+#p2{
+    text-decoration-line: line-through ;
+}
+
+#p3{
+    text-decoration-line: underline ;
+}
+
+#p4{
+    text-decoration-line: none ;
+}
+

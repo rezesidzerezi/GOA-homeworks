@@ -1,0 +1,18 @@
+
+div{
+    font-size: 50px;
+}
+
+#h1{
+    color: rgb(60, 79, 167);
+    text-shadow: 5px 5px 1px rgb(167, 60, 162);
+    text-transform: uppercase;
+}
+
+p{
+    color: black;
+    text-shadow: 8px 8px 11px rgb(0, 255, 0);
+}
+
+
+

@@ -1,0 +1,29 @@
+
+div{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#card_div:hover{
+    background-color: rgb(238, 110, 19);
+}
+
+#card_div:active{
+    border: 5px dashed rgb(121, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

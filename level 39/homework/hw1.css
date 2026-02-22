@@ -1,0 +1,48 @@
+p{
+    font-size: 50px;
+}
+
+#p1{
+    text-decoration: dotted underline green;
+}
+
+#p2{
+    text-decoration: solid line-through black;
+}
+
+#p3{
+    text-decoration: double overline red;
+}
+
+#p4{
+    text-decoration: solid underline black;
+}
+
+#p5{
+    text-decoration: dotted line-through green;
+}
+
+#p6{
+    text-decoration: solid line-through black;
+}
+
+#p7{
+    text-decoration: solid overline black;
+}
+
+#p8{
+    color: green;
+    text-decoration: solid overline green;
+}
+
+#p9{
+    color: gray;
+    text-decoration: solid overline gray;
+}
+
+#p10{
+    text-decoration: dotted underline green;
+}
+
+
+
