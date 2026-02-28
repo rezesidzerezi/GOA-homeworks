@@ -1,0 +1,11 @@
+#ul1 li{
+    list-style-image: url(done.png);
+}
+
+#ul2 li{
+    list-style-image: url(no.png);
+}
+
+#ul3 li{
+    list-style-image: url(square.png);
+}

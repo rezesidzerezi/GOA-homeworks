@@ -1,0 +1,73 @@
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+#td1{
+    background-color: yellow;
+    color: rgb(31, 31, 114);
+}
+
+#td2{
+    background-color: orange;
+    color: rgb(31, 31, 114);
+}
+
+#td3{
+    background-color: rgb(90, 187, 66);
+    color: rgb(31, 31, 114);
+}
+
+
+#td4{
+    background-color: rgb(250, 206, 153);
+}
+
+#td5{
+    background-color: lightcoral;
+}
+
+
+#td6{
+    background-color: rgb(250, 205, 150);
+}
+
+
+#td7{
+    background-color: red;
+}
+
+#td8{
+    background-color: rgb(231, 231, 231);
+}
+
+#td9{
+    background-color: rgb(32, 170, 216);
+}
+
+#td10{
+    background-color: rgb(250, 205, 150)
+}
+
+#td11{
+    background-color: rgb(139, 155, 111);
+}
+
+#td12{
+    background-color: rgb(250, 205, 150)
+}
+
+#td13{
+    background-color: rgb(173, 172, 172);
+}
+
+#td14{
+    background-color: rgb(182, 84, 39);
+}
+
+#td15{
+    background-color: rgb(250, 205, 150)
+}

@@ -1,0 +1,29 @@
+#ol1{
+    list-style-type: decimal-leading-zero;
+}
+
+#ol2{
+    list-style-type:decimal;
+}
+
+#ol3{
+    list-style-type:georgian;
+}
+
+#ol4{
+    list-style-type:upper-roman;
+}
+
+#ol5{
+    list-style-type: lower-alpha;
+}
+
+#ol6{
+    list-style-type:lower-roman;
+}
+
+#ol7{
+    list-style-type:upper-alpha;
+}
+
+
