@@ -1,0 +1,16 @@
+
+label{
+    color: red;
+}
+
+input{
+    color: red;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid red;
+}
+
+#name{
+    color: white;
+    background-color: red;
+}

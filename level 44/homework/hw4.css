@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(66, 170, 255);
+    color: white;
+}
+
+input[type = "text"] , input[type = "password"]{
+    outline: none;
+    border: none;
+}
+
+
+button{
+    border: none;
+}
+
+
+
+
+
+

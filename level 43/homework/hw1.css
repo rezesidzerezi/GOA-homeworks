@@ -16,4 +16,6 @@ tr:nth-child(1){
     color: white;
 }
 
-
+tr:nth-child(3){
+    color: rgb(2, 160, 99);
+}
