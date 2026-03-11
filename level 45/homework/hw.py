@@ -1,6 +1,12 @@
 # codewars 1
 
-
+# def accum(st):
+#     word = ""
+#     for i in range(len(st)):
+#         word += st[i].upper() + st[i].lower() * i
+#         if i != len(st) - 1:
+#             word += "-"
+#     return word
 
 # codewars 2
 
@@ -33,3 +39,9 @@
 #     return list1
 
 # codewars 6
+
+# def solution(text, ending):
+#     if text[-len(ending):] == ending:
+#         return True
+#     else:
+#         return False
