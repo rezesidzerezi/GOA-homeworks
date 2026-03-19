@@ -1,0 +1,16 @@
+#parent{
+    width: 500px;
+    display: flex;
+    border: 3px solid red;
+    justify-content: start;
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+
+
+
+
