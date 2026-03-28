@@ -1,0 +1,19 @@
+#parent{
+    height: 800px;
+    width: 800px;
+    border: 3px solid rgb(45, 85, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+img{
+    height: 250px;
+    width: 190px;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+#parent{
+    height: 600px;
+    width: 600px;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.child{
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
+
+#first{
+    align-self: flex-start;
+}
+
+#fourth{
+    align-self: flex-end;
+}

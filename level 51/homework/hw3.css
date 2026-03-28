@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    height: 400px;
+    width: 500px;
+    border: 3px solid red;
+    display: flex;
+}
+
+
+.child{
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
+
+#c1{
+    align-self: flex-end;
+}
+
+#c2{
+    align-self: flex-start;
+}
+
+#c3{
+    align-self: center;
+}
+

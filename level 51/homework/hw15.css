@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    text-decoration: solid underline black;
+    background-color: rgb(0, 121, 60);
+}
+
+img{
+    height: 50px;
+    flex: 0 0 50px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    flex: 0 50 100px;
+}
+
+a:hover{
+    text-shadow: 0px 0px 4px rgb(139, 255, 139);
+}
+
+button{
+    border: 1px solid green;
+    height: 30px;
+    text-shadow: 0px 0px 5px green;
+    flex: 0 0 80px;
+}
+
+button:hover{
+    background-color: rgb(58, 209, 159);
+}
+

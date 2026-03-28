@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(60, 0, 128);
+    border: 2px solid rgb(0, 140, 255);
+}
+

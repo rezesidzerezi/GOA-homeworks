@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(119, 223, 255);
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+div{
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+p{
+    color: rgb(119, 223, 255);
+    align-self: start;
+}
+
+input{
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 5px;
+}
+
+button{
+    border: none;
+    background-color: rgb(119, 223, 255);
+    color: white;
+    padding: 5px 74px;
+}
