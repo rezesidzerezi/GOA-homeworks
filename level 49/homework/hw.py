@@ -28,19 +28,14 @@
 
 
 
-# Regex validate PIN code 3
+# Credit Card Mask
 
-# def validate_pin(pin):
-#     if len(pin) != 4 and len(pin) != 6:
-#         return False
-
-#     for i in pin:
-#         if i < '0' or i > '9':
-#             return False
-
-#     return True
-
-
+# def maskify(cc):
+#     empty = len(cc) - 4
+#     emp = ""
+#     for i in cc:
+#         emp = emp + i
+#     return "#" * empty + str(emp[-4:])
 
 
 # shortest word 4
