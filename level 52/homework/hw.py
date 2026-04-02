@@ -75,4 +75,15 @@
 
 # codewars 8
 
-
+# def calculator(txt):
+#     count = 0
+#     new = txt.split()
+#     if new[1] == "*":
+#         count += len(new[0]) * len(new[2])
+#     elif new[1] == "+":
+#         count += len(new[0]) + len(new[2])
+#     elif new[1] == "-":
+#         count += len(new[0]) - len(new[2])
+#     elif new[1] == "//":
+#         count += len(new[0]) // len(new[2])
+#     return "." * count
