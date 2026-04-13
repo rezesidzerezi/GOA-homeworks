@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+    background-color: #e6eff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    width: 635px;
+    height: 474px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#inside1{
+    height: 45.6%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 41px;
+}
+
+#inside2{
+    width: 100%;
+    height: 54.4%;
+    display: flex;
+}
+
+#child1{
+    width: 50%;
+    height: 100%;
+    background-color: #2bb3b1;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#child2{
+    width: 50%;
+    height: 100%;
+    background-color: #4abebd;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 17px;
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 23.5px;
+}
+
+#p1{
+    color: rgb(220, 223, 50);
+    font-size: 17.8px;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+#p2{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.7;
+    font-size: 15.5px;
+}
+
+#p3{
+    font-size: 18.3px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+h2{
+    font-size: 31.5px;
+    font-weight: 600;
+}
+
+#price p{
+    opacity: 70%;
+    font-weight: 100;
+}
+
+#p4{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #bfdf32;
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#p5{
+    font-size: 18px;
+}
+
+#p6{
+    font-size: 14.2px;
+    font-weight: 100;
+    opacity: 80%;
+    line-height: 1.4;
+}
