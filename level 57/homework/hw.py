@@ -5,5 +5,44 @@
 
 # codewars 2
 
+# def max_tri_sum(numbers):
+#     list = []
+#     for i in numbers:
+#         if i not in list:
+#             list.append(i)
+#     list.sort()
+#     return list[-3] + list[-2] + list[-1]
+
+
+#codewars 3
+
+# def to_float_array(arr): 
+#     filltered = []
+#     for i in arr:
+#         filltered.append(float(i))
+#     return filltered
+
+# codewars 4
+
+# def capitalize(s):
+#     first = ""
+#     second = ""
+#     index = 0
+#     result = []
+    
+#     for i in s:
+#         if index % 2 == 0:
+#             first += i.upper()
+#             second += i.lower()
+#         else:
+#             first += i.lower()
+#             second += i.upper()
+
+#         index += 1
+#     result.append(first)
+#     result.append(second)
+#     return result
+
+# codewars 5
 
 
