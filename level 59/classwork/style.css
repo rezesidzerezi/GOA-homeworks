@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#b1{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+#b3{
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
