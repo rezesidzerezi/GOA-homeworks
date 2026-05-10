@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 33%;
+    right: 0;
+}
+
+#second{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: sticky;
+    top: 40px;
+    bottom: 65px;
+}
+
+
+
