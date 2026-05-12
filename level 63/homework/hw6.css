@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
-div{
-    width: 400px;
-    height: 250px;
+.hero{
+    height: 100vh;
     background-image: url("image1.png");
-    background-position: left top;
-    background-size: 100px;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid red;
+    /* background: url("image1.png") center no-repeat / cover; */
 }
+
+
+
+
