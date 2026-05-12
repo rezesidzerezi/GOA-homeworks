@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 1px solid red;
+    transition: background-color 2s, border 5s, border-radius 3s, width 6s, height 3s, transform 7s linear;
+}
+
+
+div:hover{
+    background-color: yellow;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    transform: translateY(100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
