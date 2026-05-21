@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    transition:opacity 0.5s,scale 0.7s,rotate 1.2s 0.4s;
+}
+
+img:hover{
+    opacity: 60%;
+    transform:scale(1.4) rotate(50deg);
+}
+
+
+
+
+
+
+
+
+
+
