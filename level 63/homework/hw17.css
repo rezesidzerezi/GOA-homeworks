@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transform-origin: bottom right;
+}
+
+div:hover{
+    transform: scale(0.5) translateX(-30px) rotate(-15deg);
+}
+
