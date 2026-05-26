@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    transition: rotate 0.8s, transform 0.5s, box-shadow 1s 0.2s;
+}
+
+img:hover{
+    rotate: 45deg;
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 5px black;
+}
+
+p{
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+p:hover{
+    color: blue;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    color: red;
+    transition: all 4s;
+    transition-delay: 2s;
+}
+
+button:active{
+    transform: scale(0.9);
+    rotate: 45deg;
+}
+
