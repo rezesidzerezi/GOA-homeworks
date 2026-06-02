@@ -134,7 +134,7 @@ h2{
     margin-left:1020px ;
     align-self: center;
     gap: 25px;
-    width: 255px;
+    width: 260px;
     height: 265px;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ h2{
     width: 100%;
     display: flex;
     margin-top: 168px;
-    gap: 60px;
+    gap: 170px;
     justify-content: center;
 }
 .main3 h3{
