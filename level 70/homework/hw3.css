@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    display: flex;
+    gap: 50px;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.first{
+    background: green;
+
+}
+
+.second{
+    background: gray;
+
+}
+
+

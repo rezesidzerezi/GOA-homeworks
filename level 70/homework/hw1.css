@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    gap: 12px;
+}
+
+.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    animation: task1 0.9s infinite;
+}
+
+.red{
+    background: #ff2d55;
+}
+
+.blue{
+    background: #00d4ff;
+    animation-delay: 0.15s;
+}
+
+.yellow{
+    background: #ffd60a;
+    animation-delay: 0.3s;
+}
+
+@keyframes task1{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
