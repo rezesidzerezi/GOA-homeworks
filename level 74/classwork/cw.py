@@ -6,6 +6,5 @@
 #         new += i * int(i)
 #     return new
 
-# codewars 2
 
 
