@@ -1,6 +1,9 @@
 # codewars 1
 
-
+# def break_chocolate(n, m):
+#     if n * m == 1 or n * m == 0:
+#         return 0
+#     return n * m - 1
 
 # codewars 2
 
@@ -19,11 +22,24 @@
 
 # codewars 3
 
-
+# def over_the_road(address, n):
+#     result = 2 * n + 1 - address
+#     return result
 
 # codewars 4
 
+# def caffeine_buzz(n):
+#     if n % 12 == 0:
+#         result = "Coffee"
+#     elif n % 3 == 0:
+#         result = "Java"
+#     else:
+#         return "mocha_missing!"
 
+#     if n % 2 == 0:
+#         result += "Script"
+
+#     return result
 
 # codewars 5
 
