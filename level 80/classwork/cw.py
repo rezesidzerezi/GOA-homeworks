@@ -61,6 +61,3 @@
 #             word += "-"
 #     return word
 
-# codewars 9
-
-
