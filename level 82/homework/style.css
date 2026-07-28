@@ -301,8 +301,8 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 0px;
-    gap: 300px;
+    padding: 100px 0px 0px 0px;
+    gap: 260px;
 }
 
 .section5 h1{
@@ -320,7 +320,6 @@ nav{
     background-color: rgba(240, 240, 240, 1);
     width: 100%;
     flex-wrap: wrap;
-    height: 550px;
 }
 
 .sameediv{
@@ -350,14 +349,80 @@ nav{
     text-decoration: underline;
 }
 
+.section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 0px 0px 50px 0px;
+}
+
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.textdiv h1{
+    font-size: 36px;
+}
+
+.textdiv p{
+    font-size: 17px;
+    width: 95%;
+    font-weight: 700;
+}
+
+.inputdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.inputdiv input{
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+
+.formdiv{
+    display: flex;
+    gap: 60px;
+}
+
+.sameinput{
+    width: 153.85000610351562px;
+    height: 39px;
+    font-size: 14px;
+    padding-left: 7px;
+}
+
+
+.emailinput{
+    width: 368.0333557128906px;
+    height: 39px;
+    padding-left: 7px;
+}
+
+.button1{
+    width: 115px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
 @media (max-width:1360px){
     .imgdiv{
         background-color: white;
     }
 
-    .sameediv h5{
-        padding: 0px 0px 50px 0px;
-    }
 }
 
 
@@ -531,7 +596,9 @@ nav{
         font-size: 23px;
     }
 
-    
+    .sameediv{
+        bottom: 70px;
+    }
 
     .balls p{
         font-size: 20px;
@@ -551,5 +618,22 @@ nav{
 
     .sameediv h5{
         font-size: 15px;
+    }
+
+    .textdiv h1{
+        font-size: 28px;
+    }
+
+    .textdiv p{
+        font-size: 15px;
+    }
+
+    .sameinput{
+        width: 125px;
+        font-size: 12px;
+    }
+
+    .emailinput{
+        width: 310px;
     }
 }
