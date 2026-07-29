@@ -234,8 +234,9 @@ nav{
 
 .grid{
     display: grid;
-    width: 80%;
-    grid-template-columns: repeat(auto-fit , minmax(285px , 1fr));
+    width: 50%;
+    grid-template-columns: repeat(auto-fit , minmax(150px , 1fr));
+    align-content: center;
     align-items: center;
     justify-items: center;
     gap: 110px;
@@ -302,7 +303,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 100px 0px 0px 0px;
-    gap: 260px;
+    gap: 360px;
 }
 
 .section5 h1{
@@ -330,6 +331,7 @@ nav{
     gap: 50px;
     position: relative;
     bottom: 175px;
+    height: 625px;
 }
 
 .sameediv h2{
@@ -356,7 +358,7 @@ nav{
     align-items: center;
     text-align: center;
     gap: 25px;
-    padding: 0px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .textdiv{
@@ -417,6 +419,52 @@ nav{
     padding: 10px;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #020202;
+    width: 100%;
+    padding: 50px 150px;
+}
+
+.fdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.fdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.fdimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pi1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tdiv{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tdiv2{
+    align-self: start;
+}
 
 @media (max-width:1360px){
     .imgdiv{
@@ -510,19 +558,19 @@ nav{
     .cards img{
         width: 200px;
     }
-
+    
     .sellers{
         font-size: 26px;
     }
-
+    
     .cards h3{
         font-size: 13px;
     }
-
+    
     .cards h5{
         font-size: 13px;
     }
-
+    
     .cards p{
         font-size: 13px;
     }
@@ -530,23 +578,27 @@ nav{
     .cards{
         gap: 13px;
     }
-
+    
     .bonus img{
         width: 200px;
     }
-
+    
     .infodiv p{
         width: 80%;
-
+        
     }
-
+    
     .infodiv h1{
         font-size: 20px;
     }
-
+    
     .section5 h1{
         font-size: 22px;
         width: 80%;
+    }
+
+    footer{
+        padding: 50px 60px;
     }
 }
 
@@ -635,5 +687,22 @@ nav{
 
     .emailinput{
         width: 310px;
+    }
+
+    .section5{
+        gap: 140px;
+    }
+
+    .imgdiv{
+        gap: 20px;
+    }
+    
+    .section6{
+        padding: 0px 0px 50px 0px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 50px;
     }
 }
