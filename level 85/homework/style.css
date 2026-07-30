@@ -140,6 +140,129 @@ main{
     right: 85px;
 }
 
+.txtdiv3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 120px;
+}
+
+.txtdiv3 h1{
+    font-weight: 600;
+    color:#4D4D4D;
+    font-size: 36px;
+}
+.txtdiv3 p{
+    color:#717171;
+    font-size: 16px;
+}
+
+.griddiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 170px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 35px 132px;
+    gap: 20px;
+}
+
+.sdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.sdiv1 h1{
+    color: #4D4D4D;
+    font-size: 36px;
+    width: 32%;
+}
+
+.sdiv1 p{
+    color: #717171;
+}
+
+.sdiv2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    gap: 250px;
+    flex-wrap: wrap;
+}
+
+.samediv{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 4px 5px rgb(233, 233, 233);
+    border-radius: 7px;
+}
+
+.samediv p{
+    color: #717171;
+}
+
+.samediv img{
+    width: 70px;
+}
+
+.samediv h1{
+    width: 200px;
+    color: #4D4D4D;
+}
+
+.samep{
+    width: 280px;
+}
+
+.diffp{
+    width: 270px;
+}
+
+@media (max-width:1815px){
+    .griddiv{
+        gap: 60px;
+    }
+
+    .sdiv2{
+        gap: 70px;
+    }
+
+    .clients{
+        padding: 50px 50px;
+    }
+
+    .section2{
+        padding: 35px 50px;
+    }
+}
 
 @media (max-width:1020px){
     header{
@@ -153,6 +276,23 @@ main{
     .txtdiv2 h1{
         font-size: 40px;
         width: 90%;
+    }
+
+    .clients{
+        padding: 40px 40px;
+    }
+
+    .section2{
+        padding: 25px 40px;
+    }
+
+    .txtdiv3 h1{
+        font-size: 40px;
+    }
+
+    .sdiv1 h1{
+        font-size: 40px;
+        width: 70%;
     }
 }
 
@@ -168,12 +308,28 @@ main{
         gap: 50px;
     }
 
-    .txtdiv , .txtdiv2{
+    .txtdiv , .txtdiv2 , .txtdiv3 , .sdiv1{
         align-items: center;
     }
 
     .dot{
         right: 0;
+    }
+
+    .sdiv1{
+        padding: 20px 20px;
+    }
+
+    .samediv{
+        width: 300px;
+    }
+
+    .griddiv{
+        gap: 35px;
+    }
+
+    .sdiv1 h1{
+        font-size: 36px;
     }
 }
 
@@ -194,9 +350,58 @@ main{
     }
 
     .txtdiv2 p{
-        font-size: 13px;
+        font-size: 14px;
         width: 90%;
     }
+
+    .imgdiv1{
+        width: 400px;
+    }
+
+    .griddiv{
+        gap: 50px;
+    }
+
+    .griddiv img{
+        width: 50px;
+    }
+    
+    .txtdiv3{
+        text-align: center;
+    }
+
+    .txtdiv3 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .txtdiv3 p{
+        font-size: 14px;
+    }
+
+    .sdiv1 h1{
+        font-size: 28px;
+    }
+
+    .sdiv1 p{
+        font-size: 14px;
+    }
+
+    .samediv img{
+        width: 50px;
+    }
+
+    .samediv h1{
+        font-size: 28px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 220px;
+    }
+
+
+
 }
 
 @media (max-width:430px){
@@ -216,5 +421,17 @@ main{
     .txtdiv2 h1{
         font-size: 30px;
         width: 80%;
+    }
+
+    .imgdiv1{
+        width: 270px;
+    }
+
+    .clients{
+        padding: 50px 24px;
+    }
+
+    .sdiv1 h1{
+        width: 300px;
     }
 }
