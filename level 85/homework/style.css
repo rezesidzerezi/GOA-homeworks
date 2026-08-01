@@ -246,6 +246,47 @@ main{
     width: 270px;
 }
 
+.section3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 100px;
+}
+
+.section3 img{
+    width: 38%;
+}
+
+.sec3div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sec3div h1{
+    color: #4D4D4D;
+    width: 500px;
+}
+
+
+.sec3div p{
+    color: #717171;
+    font-size: 15px;
+    width: 67%;
+}
+
+.sec3div button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
 @media (max-width:1815px){
     .griddiv{
         gap: 60px;
@@ -294,6 +335,24 @@ main{
         font-size: 40px;
         width: 70%;
     }
+
+    .sec3div h1{
+        font-size: 27px;
+        width: 85%;
+    }
+
+    .sec3div p{
+        font-size: 13px;
+        width: 95%;
+    }
+
+    .section3 img{
+        width: 300px;
+    }
+
+    .section3{
+        padding: 50px 20px;
+    }
 }
 
 
@@ -330,6 +389,20 @@ main{
 
     .sdiv1 h1{
         font-size: 36px;
+    }
+    
+    .section3{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sec3div{
+        align-items: center;
+        text-align: center;
+    }
+
+    .section3 img{
+        width: 60%;
     }
 }
 
@@ -400,7 +473,14 @@ main{
         width: 220px;
     }
 
+    .sec3div h1{
+        font-size: 22px;
+    }
 
+    .sec3div p{
+        width: 80%;
+        font-size: 12px;
+    }
 
 }
 
@@ -433,5 +513,14 @@ main{
 
     .sdiv1 h1{
         width: 300px;
+    }
+
+    .sec3div h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .section3 img{
+        width: 90%;
     }
 }
