@@ -40,6 +40,7 @@ header img{
     width: 140px;
 }   
 
+
 header button{
     color: white;
     background-color: #4CAF4F;
@@ -250,13 +251,12 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 50px 100px;
-    gap: 100px;
 }
 
 .section3 img{
-    width: 38%;
+    width: 33%;
 }
 
 .sec3div{
@@ -265,18 +265,20 @@ main{
     align-items: start;
     justify-content: center;
     gap: 25px;
+    width: 39.5%;
 }
 
 .sec3div h1{
     color: #4D4D4D;
-    width: 500px;
+    font-size: 36px;
+    width: 89.4%;
 }
 
 
 .sec3div p{
     color: #717171;
-    font-size: 15px;
-    width: 67%;
+    font-size: 16px;
+    width: 100%;
 }
 
 .sec3div button{
@@ -285,7 +287,126 @@ main{
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
+    font-size: 15px;
 }
+
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    padding: 50px 95px;
+}
+
+
+.imgdv1{
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 100px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtdiv6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.txtdiv6 h1{
+    color: #4D4D4D;
+    font-size: 36px;
+}
+
+.txtdiv6 span{
+    color: #4CAF4F;
+}
+
+.txtdiv6 p{
+    color: #18191F;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.samedivv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.samedivv img{
+    width: 40px;
+}
+
+.samedivv h1{
+    font-size: 24px;
+    color: #4D4D4D;
+    width: 120px;
+}
+
+.samedivv p{
+    font-size: 16px;
+    color: #717171;
+}
+
+.diffs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+}
+
+#imgsa{
+    width: 55px;
+}
+
+
+.section6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.section6 img{
+    width: 33%;
+}
+
+.panadiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    width: 40.5%;
+}
+
+.panadiv h1{
+    color: #4D4D4D;
+    font-size: 36px;
+    width: 89%;
+}
+
+.panadiv p{
+    color: #717171;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.4;
+}
+
+.panadiv button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
 
 @media (max-width:1815px){
     .griddiv{
@@ -302,6 +423,36 @@ main{
 
     .section2{
         padding: 35px 50px;
+    }
+
+    .sec3div{
+        width: 50%;
+    }
+}
+
+@media (max-width:1300px){
+    .section3{
+        padding: 50px 30px;
+    }
+
+    .section3 img{
+        width: 40%;
+    }
+
+    .sec3div{
+        width: 55%;
+    }
+
+    .section6{
+        padding: 30px;
+    }
+
+    .section6 img{
+        width: 40%;
+    }
+    
+    .panadiv{
+        width: 60%;
     }
 }
 
@@ -336,22 +487,33 @@ main{
         width: 70%;
     }
 
-    .sec3div h1{
-        font-size: 27px;
-        width: 85%;
-    }
-
-    .sec3div p{
-        font-size: 13px;
-        width: 95%;
-    }
-
-    .section3 img{
-        width: 300px;
+    .sec3div{
+        width: 80%;
     }
 
     .section3{
         padding: 50px 20px;
+    }
+
+    .section5{
+        flex-direction: column;
+    }
+
+    .txtdiv6{
+        align-items: center;
+        text-align: center;
+    }
+
+    .section5{
+        gap: 20px;
+    }
+
+    .section6{
+        padding: 100px 20px;
+    }
+
+    .panadiv{
+        width: 80%;
     }
 }
 
@@ -393,7 +555,6 @@ main{
     
     .section3{
         flex-direction: column;
-        gap: 10px;
     }
 
     .sec3div{
@@ -402,7 +563,21 @@ main{
     }
 
     .section3 img{
-        width: 60%;
+        width: 55%;
+    }
+
+    .section6{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .section6 img{
+        width: 65%;
+    }
+
+    .panadiv{
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -473,13 +648,56 @@ main{
         width: 220px;
     }
 
+    .section3 img{
+        width: 85%;
+    }
+
     .sec3div h1{
-        font-size: 22px;
+        font-size: 28px;
     }
 
     .sec3div p{
         width: 80%;
+        font-size: 14px;
+    }
+
+    .txtdiv6 h1{
+        font-size: 29px;
+        width: 95%;
+    }
+
+    .txtdiv6 p{
+        font-size: 14px;
+    }
+
+    .diffs h1{
+        font-size: 26px;
+    }
+
+    .diffs p{
         font-size: 12px;
+    }
+
+
+    .samedivv img{
+        width: 25px;
+    }
+
+    #imgsa{
+        width: 45px;
+    }
+
+    .imgdv1{
+        grid-template-columns: 170px 170px;
+    }
+
+    .section5{
+        padding: 50px 35px;
+    }
+    
+
+    .panadiv p{
+        width: 95%;
     }
 
 }
@@ -520,7 +738,36 @@ main{
         width: 80%;
     }
 
+    .sec3div{
+        width: 100%;
+    }
+
     .section3 img{
         width: 90%;
+    }
+    
+    .imgdv1{
+        grid-template-columns: 320px;
+        grid-template-rows: 80px 80px 80px 80px;
+    }
+
+    .section6{
+        padding: 25px 20px;
+    }
+
+    .section6 img{
+        width: 260px;
+    }
+
+    .panadiv{
+        width: 100%;
+    }
+
+    .panadiv h1{
+        font-size: 30px;
+    }
+
+    .panadiv p{
+        font-size: 14px;
     }
 }
