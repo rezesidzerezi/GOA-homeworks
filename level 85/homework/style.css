@@ -406,7 +406,75 @@ main{
     border-radius: 5px;
 }
 
+.section7{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #F5F7FA;
+    gap: 20px;
+}
 
+.elonmusk{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 60%;
+    gap: 20px;
+}
+
+.elonmusk p{
+    font-size: 16px;
+    color: #717171;
+    line-height: 1.5;
+    width: 79.3%;
+}
+
+.elonmusk h3{
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.elonmusk h4{
+    font-size: 16px;
+    color: #89939E;
+    font-weight: 400;
+}
+
+.child1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.child1 img{
+    width: 50px;
+}
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.customer h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+
+.customer img{
+    width: 23px;
+}
+
+.tesla{
+    width: 400px;
+}
 
 @media (max-width:1815px){
     .griddiv{
@@ -427,6 +495,12 @@ main{
 
     .sec3div{
         width: 50%;
+    }
+
+    .child1{
+        gap: 20px;
+        justify-content: start;
+        flex-wrap: wrap;
     }
 }
 
@@ -453,6 +527,23 @@ main{
     
     .panadiv{
         width: 60%;
+    }
+
+    .section7{
+        padding: 20px 30px;
+    }
+
+    .tesla{
+        width: 300px;
+        height: 300px;
+    }
+
+    .elonmusk p{
+        width: 100%;
+    }
+
+    .elonmusk{
+        width: 65%;
     }
 }
 
@@ -514,6 +605,10 @@ main{
 
     .panadiv{
         width: 80%;
+    }
+
+    .section7{
+        padding: 20px 20px;
     }
 }
 
@@ -577,6 +672,25 @@ main{
 
     .panadiv{
         align-items: center;
+        text-align: center;
+    }
+
+    .section7{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .elonmusk{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .child1{
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 }
@@ -768,6 +882,13 @@ main{
     }
 
     .panadiv p{
+        font-size: 14px;
+    }
+
+    .elonmusk{
+        width: 100%;
+    }
+    .elonmusk p{
         font-size: 14px;
     }
 }
