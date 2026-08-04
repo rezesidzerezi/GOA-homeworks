@@ -1,0 +1,38 @@
+:root{
+    --color:green;
+    --font-size:36px;
+    --border:8px;
+    --bcolor:black;
+    --weight:600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: var(--color);
+    font-size: var(--font-size);
+    border-radius: var(--border);
+    background-color: var(--bcolor);
+    font-weight: var(--weight);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
