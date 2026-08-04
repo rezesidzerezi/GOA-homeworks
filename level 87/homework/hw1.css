@@ -1,0 +1,9 @@
+:root{
+    --bg-color:green;
+}
+
+div{
+    background-color: var(--bg-color);
+    width: 200px;
+    height: 200px;
+}

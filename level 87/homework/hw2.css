@@ -1,0 +1,15 @@
+:root{
+    --text-color:green;
+    --text-size:55px;
+}
+
+h1{
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+
+
+
+
+

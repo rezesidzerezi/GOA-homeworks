@@ -1,0 +1,16 @@
+:root{
+    --btn-color:black;
+    --btn-text:green;
+    --radius:10px;
+}
+
+button{
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+    border-radius: var(--radius);
+}
+
+
+
+
+
