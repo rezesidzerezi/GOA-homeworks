@@ -32,12 +32,13 @@ let name2 = "rezi"
 let age2 = 15
 let bool = true
 let nothing
+let idk = null
 
 console.log(typeof name2)
 console.log(typeof age2)
 console.log(typeof bool)
 console.log(typeof nothing)
-
+console.log(typeof idk)
 
 /*3)შექმენი name ცვლადი. if/else-ით შეამოწმე, იწყება თუ არა სახელი "G"-ით startsWith()-ის გამოყენებით.*/ 
 
