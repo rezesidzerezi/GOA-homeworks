@@ -159,7 +159,7 @@ if(age3 < 18){
 
 let username2 = "User123"
 
-if(username2 === "false"){
+if(username2){
     console.log("Empty")
 }else if(username2.startsWith("admin") && username2.length > 10){
     console.log("Strong admin username")
