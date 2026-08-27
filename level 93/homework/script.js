@@ -102,7 +102,7 @@ addPoints(score, points = 10)
 დააბრუნოს ახალი ქულა.*/ 
 
 function addPoints(score, points = 10){
-    console.log(score , points)
+    console.log(score + points)
 }
 
 addPoints(30,32)
@@ -172,8 +172,8 @@ function convertTemperature(value, type = "C"){
 }
 
 convertTemperature(36)
-convertTemperature(38)
-convertTemperature(42)
+convertTemperature(38,"F")
+convertTemperature(42,"F")
 
 /*9)შექმენი ფუნქცია calculateSalary(salary, bonus = 0).
 
@@ -241,7 +241,7 @@ function checkExam(name, score = 0){
 
 checkExam("dachi", 100)
 checkExam("gega", 50)
-checkExam("rezi", 0)
+checkExam("rezi")
 
 /*11)შექმენი ფუნქცია:
 
@@ -270,7 +270,7 @@ function ticketPrice(age, price = 50){
     }else if(age >= 13 && age <= 59){
         return price
     }else{
-        return price * 0.15
+        return price * 0.3
     }
 }
 
