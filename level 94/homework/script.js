@@ -131,7 +131,14 @@ shop(100,20)
 "Strong password" — თუ სამივე პირობა სრულდება
 "Weak password" — სხვა შემთხვევაში*/ 
 
-// idk
+
+let validatePassword = password =>{
+    if(password.length >= 8 && password.includes("@") && password[0] === password[0].toUpperCase()){
+        return "Strong password"
+    }else{
+        return "Weak password"
+    }
+}
 
 /*9)შექმენი validateUser multi-line Arrow Function-ის სახით.
 
@@ -153,6 +160,12 @@ password-ის სიგრძე მინიმუმ 8-ია
 
 "User is invalid"*/ 
 
-
+let validateUser = (username, age, password)=>{
+    if(username != "" && age >= 18 && password.length >= 8){
+        console.log("User is valid")
+    }else{
+        console.log("User is invalid")
+    }
+}
 
 
