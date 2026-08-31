@@ -160,7 +160,7 @@ password-ის სიგრძე მინიმუმ 8-ია
 
 "User is invalid"*/ 
 
-let validateUser = (username, age, password)=>{
+let validateUser = (username, age, password) =>{
     if(username != "" && age >= 18 && password.length >= 8){
         console.log("User is valid")
     }else{
