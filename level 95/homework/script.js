@@ -165,8 +165,8 @@ function school() {
         let teacher = "Goga"
 
         console.log(country) // global scope
-        console.log(students) // local scope
-        console.log(teacher) // local scope
+        console.log(students) // block scope
+        console.log(teacher) // block scope
     }
 }
 
@@ -174,6 +174,6 @@ function school() {
 
 /*scope -- არის თუ სად არის ჩვენს მიერ შექმნილი ცვლადი ხელმისაწვდომი.
 block of code -- არის ყველაფერი რაც მოთავსებულია {}-ში
-scope არის 2 სახის global და local
+scope არის 2 სახის global და block
 global -- იქმნება ფრჩხილებს გარეთ და შეგვიძლია გამოვიყენოთ ყველგან
 local -- იქმნება ფრჩხილებს შიგნით და შეგვიძლია გამოვიყენოთ თავის ფრჩხილებს შიგნით*/ 
