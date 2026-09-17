@@ -355,6 +355,8 @@ let quantities = [3, 5, 20, 12, 4, 8]
 
 let newsalary = 0
 
+let result = 0
+
 for(let i = products.length - 1; i > 0; i--){
     let salary = prices1[i] * quantities[i]
     
@@ -371,7 +373,7 @@ for(let i = products.length - 1; i > 0; i--){
     
 
     if(quantities[i] > 10){
-        console.log(products[i])
+        result++
     }
 
     console.log(products[i] + " " + salary)
