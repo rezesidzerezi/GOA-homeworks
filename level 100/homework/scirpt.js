@@ -149,13 +149,119 @@
 // function countVowels(string = "rezi"){
 //     let count = 0
 //     for(let i = 0; i < string.length;i++){
-//         if(string[i].includes("a") || string[i].includes("e") || string[i].includes("i") || string[i].includes("o") || string[i].includes("u")){
+//         if("aeiou".includes(string[i])){
 //             count++
 //         }
 //     }
 //     console.log(count)
 // }
 // countVowels()
+
+// /*9)const numbers = [4, 8, 12, 25, 30, 40, 50];
+
+// ციკლის გამოყენებით იპოვე პირველი რიცხვი, რომელიც 20-ზე მეტია.
+
+// როგორც კი იპოვი, დაბეჭდე და შეწყვიტე ციკლის შესრულება break-ის გამოყენებით.*/ 
+
+// const numbers = [4, 8, 12, 25, 30, 40, 50];
+
+// let i = 0
+
+// while(i < numbers.length){
+//     if(numbers[i] > 20){
+//         console.log(numbers[i])
+//         break
+//     }
+
+//     i++
+// }
+
+// /*10)შექმენი ფუნქცია calculateSum, რომელსაც გადაეცემა რიცხვი n.
+
+// ფუნქციაში შექმენი ცვლადი sum, რომლის საწყისი მნიშვნელობა იქნება 0.
+
+// ციკლის გამოყენებით იპოვე 1-დან n-ის ჩათვლით რიცხვების ჯამი და დააბრუნე შედეგი.
+
+// ფუნქციის გარეთ შექმენი სხვა ცვლადი სახელად sum და შეამოწმე, შეიცვალა თუ არა მისი მნიშვნელობა ფუნქციის შესრულების შემდეგ.*/ 
+
+// function calculateSum(n = 15){
+//     let sum = 0
+//     for(let i = 0; i <= n; i++){
+//         sum += i
+//     }
+
+//     console.log(sum)
+// }
+
+// calculateSum()
+
+// let sum = 0
+
+// /*11)const text = "JavaScript is fun and JavaScript is powerful";
+
+// შექმენი ფუნქცია analyzeText, რომელსაც გადაეცემა სტრინგი.
+
+// ფუნქციამ უნდა:
+
+// ციკლის გამოყენებით დაბეჭდოს სტრინგის თითოეული სიმბოლო.
+
+// დათვალოს სტრინგში არსებული "a" ასოების რაოდენობა.
+
+// დათვალოს სტრინგში არსებული გამოტოვებების რაოდენობა.
+
+// გამოიყენოს if და შეამოწმოს, არის თუ არა სიმბოლო ხმოვანი ასო.
+
+// იპოვოს პირველი გამოტოვება და შეწყვიტოს ციკლი break-ის გამოყენებით.
+
+// დაბეჭდოს სტრინგი უკუღმა.*/ 
+
+// const text = "JavaScript is fun and JavaScript is powerful"
+
+// function analyzeText(name){
+//     let count = 0
+//     let spacecount = 0
+//     let vowelcount = 0
+//     for(let i = name.length - 1; i > 0;i--){
+//         console.log(name[i])
+
+//         if(name[i] == "a" || name[i] == "A"){
+//             count += 1
+//             vowelcount += 1
+//         }else if(name[i] == " "){
+//             spacecount += 1
+//         }else if("eiou".includes(name[i])){
+//             vowelcount += 1
+//         }
+
+
+//         if(name[i] == " "){
+//             break
+//         }
+//     }
+//     console.log(vowelcount)
+// }
+
+// analyzeText(text)
+
+/*12)შექმენი ფუნქცია numberGame, რომელსაც გადაეცემა საიდუმლო რიცხვი.
+
+ფუნქციაში:
+
+შექმენი ცვლადი guess, რომლის საწყისი მნიშვნელობა იქნება 1.
+
+გამოიყენე while ციკლი.
+
+თუ guess საიდუმლო რიცხვზე ნაკლებია, გაზარდე ის 1-ით.
+
+თუ guess საიდუმლო რიცხვს გაუტოლდება, დაბეჭდე "You found it!" და შეწყვიტე ციკლი break-ით.
+
+დათვალე, რამდენი გამეორება დასჭირდა რიცხვის პოვნას.
+
+დააბრუნე გამეორებების რაოდენობა.*/ 
+
+
+
+
 
 
 
