@@ -432,6 +432,7 @@ Loop-ის საშუალებით:
 // while(i < operations.length){
 //     if(operations[i] > 0){
 //         balance += operations[i]
+//         successful++
 //     }else if(balance + operations[i] >= 0){
 //         balance += operations[i]
 //         successful++
