@@ -106,20 +106,284 @@ Product price: 250
 50–59 → Average
 50-ზე ნაკლები → Failed*/ 
 
-let scores = [95, 67, 42, 81, 55, 30]
+// let scores = [95, 67, 42, 81, 55, 30]
 
-scores.forEach(score => {
-    if(score >= 80){
-        console.log("Excellent")
-    }else if(score >= 60 && score <= 79){
-        console.log("Good")
-    }else if(score >= 50 && score <= 59){
-        console.log("Average")
-    }else{
-        console.log("Failed")
-    }
-})
+// scores.forEach(score => {
+//     if(score >= 80){
+//         console.log("Excellent")
+//     }else if(score >= 60 && score <= 79){
+//         console.log("Good")
+//     }else if(score >= 50 && score <= 59){
+//         console.log("Average")
+//     }else{
+//         console.log("Failed")
+//     }
+// })
 
-/**/ 
+/*8)მოცემულია:
+
+let prices = [100, 200, 350, 80, 500];
+
+პირველ ეტაპზე .map()-ით თითოეულ ფასს დაუმატე 50.
+
+შემდეგ მიღებული ახალი სია .forEach()-ით დაბეჭდე.
+
+მაგალითად:
+
+New price: 150
+New price: 250
+New price: 400
+...*/ 
+
+// let prices = [100, 200, 350, 80, 500]
+
+// let newprices = prices.map(price =>{
+//     return price + 50
+// })
+
+// newprices.forEach(a =>{
+//     console.log(`New price: ${a}`)
+// })
+
+/*9)let scores = [45, 60, 72, 38, 90];
+პირველი ეტაპი — .map()
+
+თუ ქულა 50-ზე ნაკლებია, დაუმატე 15.
+
+თუ 50 ან მეტია, დაუტოვე უცვლელი.
+
+მეორე ეტაპი — .forEach()
+
+დაბეჭდე:
+
+Score: 60
+Score: 60
+Score: 72
+Score: 53
+Score: 90*/ 
+
+// let scores = [45, 60, 72, 38, 90]
+
+// let newscore = scores.map(score =>{
+//     if(score < 50){
+//         return score + 15
+//     }else{
+//         return score
+//     }
+// })
+
+// newscore.forEach(s =>{
+//     console.log(`Score: ${s}`)
+// })
+
+/*10)let names = ["nika", "ana", "gio", "mariam", "luka"];
+
+.map()-ით ყველა სახელი გადაიყვანე uppercase-ში.
+
+შემდეგ .forEach()-ით დაბეჭდე:
+
+Student: NIKA
+Student: ANA
+Student: GIO
+...*/ 
+
+// let names = ["nika", "ana", "gio", "mariam", "luka"]
+
+// let newnames = names.map(name =>{
+//     return name.toUpperCase()
+// })
+
+// newnames.forEach(n =>{
+//     console.log(`Student: ${n}`)
+// })
+
+/*11)მოცემულია:
+
+let numbers = [12, 5, 20, 7, 30, 11, 8];
+
+შეასრულე:
+
+1. .map()
+
+თუ რიცხვი ლუწია → გაამრავლე 2-ზე
+თუ კენტია → გაამრავლე 3-ზე
+
+2. .forEach()
+
+დაბეჭდე მიღებული თითოეული რიცხვი:
+
+Result: ...*/ 
+
+// let numbers = [12, 5, 20, 7, 30, 11, 8]
+
+// let newnum = numbers.map(num =>{
+//     if(num % 2 == 0){
+//         return num * 2
+//     }else{
+//         return num * 3
+//     }
+// })
+
+// newnum.forEach(n =>{
+//     console.log(`Result: ${n}`)
+// })
+
+/*12)let prices = [120, 450, 80, 300, 50, 700];
+
+.map()-ით:
+
+თუ ფასი 100-ზე ნაკლებია → დაუმატე 20
+თუ ფასი 100-დან 500-მდეა → დაუმატე 50
+თუ ფასი 500-ზე მეტია → დაუმატე 100
+
+შემდეგ .forEach()-ით დაბეჭდე:
+
+Old price → New price
+
+მაგალითად:
+
+120 → 170
+450 → 500
+80 → 100*/ 
+
+// let prices = [120, 450, 80, 300, 50, 700]
+
+// let newprices = prices.map(price =>{
+//     if(price < 100){
+//         return price + 20
+//     }else if(price >= 100 && price <= 500){
+//         return price + 50
+//     }else{
+//         return price + 100
+//     }
+// })
+
+// newprices.forEach((p,index)=>{
+//     console.log(`${prices[index]} -> ${p}`)
+// })
+
+/*13)let numbers = [5, 12, 25, 8, 40, 17];
+
+.map()-ით თითოეული რიცხვი შეცვალე შემდეგი წესით:
+
+10-ზე ნაკლები → "Small"
+10-დან 20-მდე → "Medium"
+20-ზე მეტი → "Large"
+
+შემდეგ .forEach()-ით დაბეჭდე მიღებული მნიშვნელობები.
+
+მაგალითად:
+
+Small
+Medium
+Large
+Small
+Large
+Medium*/ 
+
+// let numbers = [5, 12, 25, 8, 40, 17]
+
+// let newnum = numbers.map(num=>{
+//     if(num < 10){
+//         return "Small"
+//     }else if(num >= 10 && num <= 20){
+//         return "Medium"
+//     }else{
+//         return "Large"
+//     }
+// })
+
+// newnum.forEach(n =>{
+//     console.log(n)
+// })
+
+/*14)let numbers = [10, 25, 4, 18, 33, 7, 40];
+
+უნდა გამოიყენო მხოლოდ .map() და .forEach().
+
+.map():
+
+თითოეული რიცხვი შეცვალე:
+
+თუ რიცხვი 20-ზე მეტია → გამოაკელი 5
+თუ რიცხვი 20-ზე ნაკლებია → დაუმატე 5
+თუ რიცხვი ზუსტად 20 იქნებოდა → გაამრავლე 2-ზე
+.forEach():
+
+თითოეულ მიღებულ რიცხვზე დაბეჭდე:
+
+Number: 20
+Number: 30
+...*/ 
+
+// let numbers = [10, 25, 4, 18, 33, 7, 40]
+
+// let newnum = numbers.map(num =>{
+//     if(num > 20){
+//         return num - 5
+//     }else if(num < 20){
+//         return num + 5
+//     }else{
+//         return num * 2
+//     }
+// })
+
+// newnum.forEach(n =>{
+//     console.log(`Number: ${n}`)
+// })
+
+/*15)let numbers = [5, 12, 30, 7, 21, 40, 9, 18];
+
+გამოიყენე მხოლოდ .map() და .forEach().
+
+პირველი ეტაპი — .map()
+
+თითოეული რიცხვისთვის:
+
+თუ რიცხვი 10-ზე ნაკლებია → დაუმატე 10
+თუ რიცხვი 10-დან 20-მდეა → გაამრავლე 2-ზე
+თუ რიცხვი 20-ზე მეტია → გამოაკელი 5
+თუ მიღებული შედეგი ლუწია → კიდევ დაუმატე 2
+თუ მიღებული შედეგი კენტია → კიდევ დაუმატე 1
+მეორე ეტაპი — .forEach()
+
+დაბეჭდე:
+
+Original number: 5
+Final result: 16
+
+მაგრამ აქ ერთი მნიშვნელოვანი პირობაა:
+
+ორიგინალი რიცხვი უნდა შეინარჩუნო და შედეგი ცალკე მიიღო.
+
+ანუ .map()-ის შიგნით უნდა იფიქრო ისე, რომ საბოლოოდ .forEach()-ს ორივე ინფორმაცია ჰქონდეს.*/ 
+
+// let numbers = [5, 12, 30, 7, 21, 40, 9, 18]
+
+// let newnum = numbers.map(num =>{
+//     if(num < 10){
+//         num += 10
+//         if(num % 2 == 0){
+//             num += 2
+//         }else{
+//             num += 1
+//         }
+//     }else if(num >= 10 && num <= 20){
+//         num *= 2
+//     }else{
+//         num -= 5
+//         if(num % 2 == 0){
+//             num += 2
+//         }else{
+//             num += 1
+//         }
+//     }
+//     return num
+// })
+
+// newnum.forEach((n,index)=>{
+//     console.log(`Original number: ${numbers[index]} -> Final result: ${n}`)
+// })
+
 
 
