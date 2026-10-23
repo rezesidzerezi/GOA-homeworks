@@ -19,23 +19,23 @@
 ბოლოს დაპრინტეთ მთლიანი ობიექტიც*/ 
 
 
-let person = {
-    name : "rezi",
-    surname : "rezesidze",
-    age : 15,
-    hob : "playing basketball",
-    "favorite food" : "ხინკალი",
-    "favorite car" : "bmw",
-    "favorite subject" : "math"
-}
+// let person = {
+//     name : "rezi",
+//     surname : "rezesidze",
+//     age : 15,
+//     hob : "playing basketball",
+//     "favorite food" : "ხინკალი",
+//     "favorite car" : "bmw",
+//     "favorite subject" : "math"
+// }
 
-console.log(person.name)
-console.log(person.surname)
-console.log(person.age)
-console.log(person.hob)
-console.log(person["favorite food"])
-console.log(person["favorite car"])
-console.log(person["favorite subject"])
+// console.log(person.name)
+// console.log(person.surname)
+// console.log(person.age)
+// console.log(person.hob)
+// console.log(person["favorite food"])
+// console.log(person["favorite car"])
+// console.log(person["favorite subject"])
 
 
 
