@@ -23,7 +23,9 @@ let student = {
     history: 60
 }
 
-
+for(let i in student){
+    console.log(i,student[i])
+}
 
 
 
