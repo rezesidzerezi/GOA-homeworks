@@ -221,6 +221,101 @@ let students = [
 
 // console.log(new5)
 
+/*5)let orders = [
+    { id: 101, customer: "Nika", total: 350, delivered: true },
+    { id: 102, customer: "Ana", total: 120, delivered: false },
+    { id: 103, customer: "Gio", total: 750, delivered: true },
+    { id: 104, customer: "Mariam", total: 90, delivered: false },
+    { id: 105, customer: "Luka", total: 500, delivered: true },
+    { id: 106, customer: "Saba", total: 220, delivered: false }
+];
 
 
+მოთხოვნები:
+1. filter()-ით შექმენი სია, რომელშიც მხოლოდ მიტანილი შეკვეთები იქნება.
+2. forEach()-ით გამოიტანე ყველა შეკვეთის ID და მომხმარებლის სახელი.
+3. map()-ით შექმენი ახალი სია, სადაც თითოეული შეკვეთის თანხა გაზრდილი იქნება 50 ლარით.
+4. findIndex()-ით იპოვე შეკვეთა, რომლის ID არის 104.
+5. some()-ით შეამოწმე, არსებობს თუ არა შეკვეთა, რომლის ღირებულება 700 ლარზე მეტია.
+6. every()-ით შეამოწმე, ყველა შეკვეთის ღირებულება 100 ლარზე მეტია თუ არა.*/ 
+
+// let orders = [
+//     { id: 101, customer: "Nika", total: 350, delivered: true },
+//     { id: 102, customer: "Ana", total: 120, delivered: false },
+//     { id: 103, customer: "Gio", total: 750, delivered: true },
+//     { id: 104, customer: "Mariam", total: 90, delivered: false },
+//     { id: 105, customer: "Luka", total: 500, delivered: true },
+//     { id: 106, customer: "Saba", total: 220, delivered: false }
+// ]
+
+// let new1 = orders.filter(i=>i.delivered)
+
+// console.log(new1)
+
+// orders.forEach(i=>console.log(i.id,i.customer))
+
+// let new2 = orders.map(i=> i.total + 50)
+
+// console.log(new2)
+
+// let new3 = orders.findIndex(i=> i.id === 104)
+
+// console.log(new3)
+
+// let new4 = orders.some(i=> i.total > 700)
+
+// console.log(new4)
+
+// let new5 = orders.every(i=> i.total > 100)
+
+// console.log(new5)
+
+/*6)let movies = [
+    { title: "Avatar", rating: 8.5, year: 2009, watched: true },
+    { title: "Titanic", rating: 7.9, year: 1997, watched: true },
+    { title: "Joker", rating: 8.4, year: 2019, watched: false },
+    { title: "Inception", rating: 9.0, year: 2010, watched: true },
+    { title: "Venom", rating: 6.5, year: 2021, watched: false },
+    { title: "Interstellar", rating: 9.2, year: 2014, watched: false }
+];
+
+
+მოთხოვნები:
+1. filter()-ით მიიღე მხოლოდ ის ფილმები, რომელთა რეიტინგი 8-ზე მეტია.
+2. forEach()-ით გამოიტანე ყველა ფილმის სათაური და გამოშვების წელი.
+3. map()-ით შექმენი ახალი სია, სადაც თითოეული ფილმი წარმოდგენილი იქნება შემდეგი ფორმით: "Avatar - 8.5".
+4. findIndex()-ით იპოვე "Interstellar"-ის ინდექსი.
+5. some()-ით შეამოწმე, არის თუ არა ისეთი ფილმი, რომელიც ჯერ არ უნახავთ.
+6. every()-ით შეამოწმე, ყველა ფილმის რეიტინგი 6-ზე მეტია თუ არა.*/ 
+
+// let movies = [
+//     { title: "Avatar", rating: 8.5, year: 2009, watched: true },
+//     { title: "Titanic", rating: 7.9, year: 1997, watched: true },
+//     { title: "Joker", rating: 8.4, year: 2019, watched: false },
+//     { title: "Inception", rating: 9.0, year: 2010, watched: true },
+//     { title: "Venom", rating: 6.5, year: 2021, watched: false },
+//     { title: "Interstellar", rating: 9.2, year: 2014, watched: false }
+// ]
+
+// let new1 = movies.filter(i=> i.rating > 8)
+
+// console.log(new1)
+
+// movies.forEach(i=> console.log(i.title,i.year))
+
+// let new2 = movies.map(i=> `${i.title} - ${i.rating}.`)
+
+// console.log(new2)
+
+// let new3 = movies.findIndex(i=> i.title === "Interstellar")
+
+// console.log(new3)
+
+// let new4 = movies.some(i=>i.watched === false)
+
+// console.log(new4)
+
+// let new5 = movies.every(i=>i.rating > 6)
+
+// console.log(new5)
 
