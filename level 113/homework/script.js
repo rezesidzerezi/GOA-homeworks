@@ -150,7 +150,7 @@ let students = [
 
 // console.log(new3)
 
-// let new4 = characters.some(i=> i.level > 18 && i.alive === true)
+// let new4 = characters.some(i=> i.level > 18)
 
 // console.log(new4)
 
