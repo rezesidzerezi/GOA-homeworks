@@ -70,31 +70,31 @@ Player: Shadow | Level: Advanced Player | Health: 75 | Status: Player is healthy
 
 შეცვლაეთ ორივეს მნიშვნელობა და ასევე დააბრუნებთ მგანახლებული მნშვნელობები*/ 
 
-let profile = {
-    name : "rezi",
-    _email : "rezirezi1@.gmail.com",
-    _password : 1120,
-    set newpass1(newpass){
-        this._password = newpass
-    },
-    get newpass2(){
-        return this._password
-    },
-    set newe1(newe){
-        this._email = newe
-    },
-    get newe2(){
-        return this._email
-    }
-}
+// let profile = {
+//     name : "rezi",
+//     _email : "rezirezi1@.gmail.com",
+//     _password : 1120,
+//     set newpass1(newpass){
+//         this._password = newpass
+//     },
+//     get newpass2(){
+//         return this._password
+//     },
+//     set newe1(newe){
+//         this._email = newe
+//     },
+//     get newe2(){
+//         return this._email
+//     }
+// }
 
-console.log(profile.newpass2)
-profile.newpass1 = 2222
-console.log(profile.newpass2)
+// console.log(profile.newpass2)
+// profile.newpass1 = 2222
+// console.log(profile.newpass2)
 
-console.log(profile.newe2)
-profile.newe1 = "rezesidze@.gmail.com"
-console.log(profile.newe2)
+// console.log(profile.newe2)
+// profile.newe1 = "rezesidze@.gmail.com"
+// console.log(profile.newe2)
 
 
 
