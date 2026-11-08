@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    padding: 30px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    border-bottom: 1px solid rgba(168, 168, 168, 1);
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 350px;
+}
+
+.hdiv p{
+    font-size: 16px;
+}
+
+.hdiv img{
+    display: none;
+}
+
+header button{
+    border: none;
+    background-color: rgba(255, 206, 49, 1);
+    padding: 15px 35px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+main{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 30px;
+}
+.sdiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 80px;
+}
+
+.txtdiv{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.txtdiv h1{
+    font-size: 60px;
+    width: 500px;
+}
+.txtdiv p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 535px;
+    line-height: 1.5;
+}
+
+.mobile{
+    width: 450px;
+}
+
+.inputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputdiv input{
+    color: rgba(113, 113, 113, 1);
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 17px 150px 17px 25px;
+}
+
+.inputdiv button{
+    background-color: rgba(255, 206, 49, 1);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 45px;
+}
+
+.pic1{
+    width: 200px;
+}
+
+.sdiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.imgdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+#com{
+    width: 70px;
+}
+
+.imgdiv2 img{
+    width: 100px;
+}
+
+
+@media(max-width: 1200px){
+    header{
+        gap: 100px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    .hdiv{
+        gap: 30px;
+        width: 80%;
+    }
+
+    .hdiv p{
+        font-size: 14px;
+    }
+
+    header button{
+        padding: 13px 30px;
+    }
+
+    .txtdiv h1{
+        font-size: 50px;
+    }
+
+    .txtdiv p{
+        font-size: 15px;
+    }
+
+    .inputdiv input{
+        padding: 17px 100px 17px 15px;
+    }
+
+    .inputdiv button{
+        padding: 15px 30px;
+        font-size: 13px;
+    }
+
+    .mobile{
+        width: 375px;
+    }
+
+    .section1{
+        gap: 25px;
+    }
+
+    .imgdiv2{
+        gap: 25px;
+    }
+
+    .imgdiv2 img{
+        width: 75px;
+    }
+
+    #com{
+        width: 50px;
+    }
+}
+
+
+@media (max-width: 1000px){
+    main{
+        margin-top: 50px;
+    }
+    .section1{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .txtdiv{
+        align-items: center;
+        text-align: center;
+
+    }
+    .sdiv1{
+        align-items: center;
+        gap: 25px;
+    }
+
+    .sdiv2{
+        gap: 35px;
+    }
+
+    .imgdiv2{
+        gap: 45px;
+    }
+
+    .imgdiv2 img{
+        width: 90px;
+    }
+
+    #com{
+        width: 60px;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    header{
+        gap: 40px;
+    }
+
+    header h1{
+        font-size: 22px;
+    }
+
+    .hdiv{
+        gap: 25px;
+        width: 76%;
+    }
+
+    .hdiv p{
+        font-size: 13px;
+    }
+
+    header button{
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+
+}
+
+
+
+@media(max-width: 600px){
+    .hdiv img{
+        display: block;
+        width: 25px;
+    }
+
+    .hdiv p{
+        display: none;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    header{
+        gap: 50px;
+    }
+
+
+    .txtdiv h1{
+        font-size: 32px;
+        width: 350px;
+    }
+
+    .txtdiv p{
+        font-size: 14px;
+        width: 325px;
+    }
+
+
+    .inputdiv input{
+        padding: 17px 35px 17px 15px;
+    }
+
+    .mobile{
+        width: 310px;
+    }
+
+    .imgdiv2{
+        gap: 25px;
+    }
+
+    .imgdiv2 img{
+        width: 65px;
+    }
+
+    .com{
+        width: 45px;
+    }
+    .section1{
+        padding: 0px 5px;
+    }
+
+    .inputdiv button{
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
