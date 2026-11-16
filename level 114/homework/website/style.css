@@ -54,6 +54,7 @@ header button{
 }
 
 main{
+    width: 100%;
     margin-top: 80px;
     display: flex;
     align-items: center;
@@ -152,6 +153,203 @@ main{
 }
 
 
+.section2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.txtdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.txtdiv2 h1{
+    font-size: 45px;
+    width: 600px;
+}
+
+.txtdiv2 p{
+    font-size: 16px;
+    width: 370px;
+    line-height: 1.5;
+}
+
+.imgdiv3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.samediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    background-color: rgba(255, 240, 191, 1);
+    padding: 50px 25px 0px 25px;
+    border-radius: 35px;
+}
+
+.samediv h1{
+    font-size: 26px;
+}
+
+.samediv p{
+    font-size: 15px;
+    width: 450px;
+}
+
+.sdivimg{
+    width: 350px;
+}
+
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px;
+    gap: 15px;
+}
+
+.s3div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.s3div h1{
+    font-size: 40px;
+}
+
+.s3div p{
+    font-size: 14px;
+}
+
+.section3 img{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 250px;
+}
+
+.same{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.same h1{
+    font-size: 75px;
+}
+
+.same p{
+    font-size: 13px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    background-color: rgba(255, 206, 49, 1);
+    width: 100%;
+    padding: 150px 0px;
+    text-align: center;
+    gap: 40px;
+}
+
+.section4 h1{
+    font-size: 60px;
+    width: 800px;
+}
+
+.s4img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.s4img img{
+    width: 200px;
+}
+
+.section5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 135px 50px 135px;
+}
+
+.s5div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.s5div p{
+    width: 270px;
+    line-height: 1.5;
+}
+
+.holediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.lsame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.borderdiv{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    width: 83%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer p{
+    margin-bottom: 25px;
+}
+
+
 @media(max-width: 1200px){
     header{
         gap: 100px;
@@ -210,6 +408,49 @@ main{
     #com{
         width: 50px;
     }
+
+    .txtdiv2{
+        gap: 35px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 35px;
+        width: 450px;
+    }
+
+    .txtdiv2 p{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .samediv h1{
+        font-size: 23px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 360px;
+    }
+
+    .sdivimg{
+        width: 300px;
+    }
+
+    .section2{
+        gap: 80px;
+    }
+
+    .all{
+        gap: 125px;
+    }
+
+    .same h1{
+        font-size: 65px;
+    }
+
+    .section5{
+        padding: 0px 90px 50px 90px;
+    }
 }
 
 
@@ -246,6 +487,88 @@ main{
     #com{
         width: 60px;
     }
+
+    .txtdiv2{
+        gap: 70px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .txtdiv2 p{
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .samediv h1{
+        font-size: 22px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 290px;
+    }
+
+    .sdivimg{
+        width: 275px;
+    }
+
+    .section2{
+        gap: 80px;
+    }
+
+    .s3div h1{
+        font-size: 32px;
+    }
+
+    .s3div p{
+        font-size: 13px;
+    }
+
+    .all{
+        gap: 100px;
+    }
+
+    .same h1{
+        font-size: 55px;
+    }
+
+
+
+    .section4 h1{
+        font-size: 45px;
+        width: 600px;
+    }
+
+    .s4img img{
+        width: 185px;
+    }
+
+    .section4{
+        padding: 100px 0px;
+    }
+
+    .section5{
+        padding: 0px 50px 50px 50px;
+    }
+
+    .s5div p{
+        font-size: 15px;
+    }
+
+    .lsame p{
+        font-size: 14px;
+    }
+
+    .holediv{
+        gap: 45px;
+    }
+
+    .borderdiv{
+        width: 90%;
+    }
 }
 
 
@@ -273,6 +596,95 @@ main{
         padding: 12px 25px;
     }
 
+    .txtdiv2{
+        gap: 30px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 26px;
+        width: 310px;
+    }
+
+    .txtdiv2 p{
+        font-size: 13px;
+        width: 205px;
+    }
+
+    .samediv h1{
+        font-size: 20px;
+    }
+
+    .samediv p{
+        font-size: 13px;
+        width: 245px;
+    }
+
+    .sdivimg{
+        width: 220px;
+    }
+
+    .section2{
+        gap: 80px;
+    }  
+
+    .imgdiv3{
+        gap: 35px;
+    }
+
+    .samediv{
+        padding: 50px 15px 0px 15px;
+    }
+
+
+    .same h1{
+        font-size: 35px;
+    }
+
+    .same p{
+        font-size: 11px;
+    }
+
+    .section3 img{
+        margin-top: 20px;
+    }
+
+    .all{
+        gap: 45px;
+    }
+
+    .section4 h1{
+        font-size: 35px;
+        width: 500px;
+    }
+
+    .s4img img{
+        width: 150px;
+    }
+
+    .section4{
+        padding: 85px 0px;
+    }
+
+    .s5div h1{
+        font-size: 25px;
+    }
+
+    .s5div p{
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .lsame p{
+        font-size: 13px;
+    }
+
+    .holediv{
+        gap: 30px;
+    }
+
+    .section5{
+        padding: 0px 30px 50px 30px;
+    }
 }
 
 
@@ -334,9 +746,104 @@ main{
         padding: 15px 20px;
         font-size: 12px;
     }
+
+
+    .txtdiv2{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .txtdiv2 p{
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .imgdiv3{
+        flex-direction: column;
+    }
+
+    .section2{
+        gap: 30px;
+    }
+
+    .sdivimg{
+        width: 280px;
+    }
+
+    .samediv h1{
+        font-size: 23px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+    }
+
+
+    .s3div h1{
+        font-size: 25px;
+    }
+
+    .s3div p{
+        font-size: 12px;
+    }
+
+    .all{
+        gap: 20px;
+    }
+
+    .same h1{
+        font-size: 30px;
+    }
+
+    .same p{
+        font-size: 11px;
+    }
+
+    .section3{
+        padding: 0px 10px;
+    }
+
+
+    .section4 h1{
+        font-size: 28px;
+        width: 91%;
+    }
+
+    .s4img img{
+        width: 125px;
+    }
+
+    .section4{
+        padding: 85px 0px;
+    }
+
+
+    .section5{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .s5div{
+        align-items: center;
+    }
+    .s5div p{
+        width: 90%;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+
+    .borderdiv{
+        width: 95%;
+    }
 }
-
-
 
 
 
